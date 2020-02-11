@@ -1,0 +1,116 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+ }
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+
+.blog-post h3 {
+	font-size: 1.5em;
+}
+
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+aside.case-study-sidebar {
+    float: left;
+    width: 40%;
+}
+
+div.case-study-images {
+    float: right;
+    width: 50%;
+}
+
+.site-content h4 {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
+    
+}
+
+.homepage-featured-work li{
+     list-style: none;
+    float: left;
+    padding: 0.4em;
+    }
+
+
+
+.recent-posts {
+    width: 45%;
+    margin-left: 19%;
+}
+
+/* Case Studies Archive */
+
+body.post-type-archive-case_studies article.case-study {
+	margin-top: 60px;
+}
+
+body.post-type-archive-case_studies aside.case-study-sidebar h2 {
+	font-weight: 400;
+	font-size: 28px;
+}
+
+body.post-type-archive-case_studies aside.case-study-sidebar p {
+	margin-top: 24px;
+	font-size: 16px;
+    margin-bottom: 120px;
+}
+
+body.post-type-archive-case_studies div.case-study-images {
+	margin-bottom: 30px;
+}
+
+div.case-study-images img {
+	width: 100%;
+	height: auto;
+}
+
+.social-media-menu ul{
+    list-style: none;
+    display: inline;
+
+
+}
+
+.social-media-menu li{
+    display: inline;
+    
+}
