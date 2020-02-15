@@ -123,42 +123,16 @@ div.case-study-images img {
 }
 
 
-.main-content {
-    clear: both;
-}
-
 #nf-field-2-wrap, #nf-field-1-wrap {
   width: 45%;
   display: inline;
   float: left;
 }
 
-#ninja_forms_field_1_div_wrap {
-  padding-right: 4%;
-}
-
-#ninja_forms_field_3_div_wrap {
-  width: 100%;
-}
-
 .submit-wrap {
   width: 100%;
 }
 
-/*
-#nf-field-1-container {
-    width: 50%;
-    float: left;
-    display: inline;
-}
-
-
-#nf-field-2-container {
-    width: 50%;
-    float: left;
-    display: inline;
-} 
-*/
 textarea { 
     resize: none; 
 }
