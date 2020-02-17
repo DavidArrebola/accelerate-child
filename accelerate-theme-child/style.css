@@ -119,14 +119,20 @@ div.case-study-images img {
 
 .ninja_forms {
   width: 725px;
-  margin: 0 auto;
+  /*margin: 0 auto; */
 }
 
 
-#nf-field-2-wrap, #nf-field-1-wrap {
-  width: 45%;
-  display: inline;
+ #nf-field-1-container {
+  width: 50%;
   float: left;
+}
+
+#nf-field-2-container {
+     width: 50%;
+    float: left;
+    clear: none;
+    padding-left: 1em;
 }
 
 .submit-wrap {
@@ -140,4 +146,16 @@ textarea {
 #nf-field-4 {
     background-color:  #45ac9d;
     float: right;
+}
+
+/** About Custom Styles **/
+
+#about-primary.home-page.hero-content{
+  height: 20%;
+}
+
+
+.services {
+    padding-left: 28em;
+    padding-right: 28em;
 }
