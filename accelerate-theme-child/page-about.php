@@ -44,21 +44,23 @@ get_header(); ?>
     <div class="service-content">
         <div class="service-blurb"> 
         <h5>OUR SERVICES</h5>
-        <p>We take pride in our clients and the content we create for them.<br>Here's a brief overview of our offered services.</p>
+            <p>We take pride in our clients and the content we create for them.</p><p>Here's a brief overview of our offered services.</p>
         </div>
            <div class="service-list">
             <div class='about-strategy'>
-                <div class='strategy-image'>
+                <div  class='strategy-image'>
                 <?php echo wp_get_attachment_image ($image_1, $size ); ?>
                 </div>
+                <div class='about-sidebar-r'>
                 <h5><?php echo $service_1; ?></h5>
                 <p><?php echo $description_1; ?></p>
-                
+                </div>
             </div>
             <div class='about-influencer'>
+                <div class='about-sidebar-l'>
                 <h5><?php echo $service_2; ?></h5>
                 <p><?php echo $description_2; ?></p>
-                 
+                </div>
                 <div class='influencer-image'>
                 <?php echo wp_get_attachment_image ($image_2, $size ); ?>
                 </div>
@@ -68,13 +70,16 @@ get_header(); ?>
                 <div class='social-media-image'>
                 <?php echo wp_get_attachment_image ($image_3, $size ); ?>
                 </div>
+                <div class='about-sidebar-r'>
                 <h5><?php echo $service_3; ?></h5>
                 <p><?php echo $description_3; ?></p>
+                </div>
             </div>   
-            <div class='about-design'>
+            <div  class='about-design'>
+                <div class='about-sidebar-l'>
                 <h5><?php echo $service_4; ?></h5>
                 <p><?php echo $description_4; ?></p>
-                 
+                </div>
                 <div class='design-image'>
                 <?php echo wp_get_attachment_image ($image_4, $size ); ?>
                 </div>

@@ -151,11 +151,134 @@ textarea {
 /** About Custom Styles **/
 
 #about-primary.home-page.hero-content{
-  height: 20%;
+    
+    max-height: 310px;
+    padding: 40px 0;
+}
+
+.service-content {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.service-blurb {
+    padding-bottom: 20px;
+}
+
+.service-blurb h5{
+    text-transform: uppercase;
+   text-align: center;
+    
+}
+
+.service-blurb p{
+   text-align: center;
+}
+
+.influencer-image, .design-image{
+    float: right;
+    width: 25%;
+    margin-top: 10px;
+}
+
+.strategy-image, .social-media-image{
+    float: left;
+    width: 25%;
+    margin-top: 10px;
+    clear:left;
 }
 
 
-.services {
-    padding-left: 28em;
-    padding-right: 28em;
+
+.about-sidebar-r{
+    float: right;
+    width: 75%;
+    margin-top: 10px;
+    clear: right;
+}
+
+.about-sidebar-l{
+    float: left;
+    width: 75%;
+    margin-top: 10px;
+    clear: both;
+}
+
+.about-contact {
+    border-top: 1px solid #bfbfbf;
+    padding-top: 2em;
+    margin-bottom: 4em;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.about-contact {
+    clear:both;
+}
+.about-contact h3{
+    display: inline-block;
+      margin-left: 100px;
+    
+    }
+
+.about-contact a{
+    display: inline-block;
+    float:right;
+     margin-top: 25px;
+  margin-right: 100px;
+    
+}
+
+
+/** 404 page ***/
+
+.crash-image {
+    background: url("img/crash-image.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+        width: 90%;
+    max-width: 960px;
+    height: 1000px;
+    max-height: inherit;
+    margin: 0 auto;
+}
+ 
+.crash-image p{
+    font-size: 5em;
+    color: white;
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.four-oh-button{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    max-width: 3em;
+    padding-left: 30em;
+}
+
+/** Twitter Module **/
+
+.widget-area {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.widget-area h3 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+    padding-left: 1em;
+}
+
+.widget-area a {
+  display: none;
+}
+
+.textwidget #buttoon {
+    background: #45ac9d;
 }
